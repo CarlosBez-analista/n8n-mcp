@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758241375808,
+  "lastUpdate": 1758584200100,
   "repoUrl": "https://github.com/CarlosBez-analista/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -104,6 +104,58 @@ window.BENCHMARK_DATA = {
             "range": "0.306",
             "unit": "ms",
             "extra": "15124 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dd36735a1a6ba3b1a822ed7a7a8638b3fcf0f4cb",
+          "message": "Merge pull request #215 from czlonkowski/chore/update-n8n-dependencies-v1.112.3\n\nchore: update n8n dependencies to v1.112.3",
+          "timestamp": "2025-09-22T23:58:05+02:00",
+          "tree_id": "8e926b26c9cafca61638ebf8f7ca5a7f9610b248",
+          "url": "https://github.com/CarlosBez-analista/n8n-mcp/commit/dd36735a1a6ba3b1a822ed7a7a8638b3fcf0f4cb"
+        },
+        "date": 1758584199811,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0209,
+            "range": "0.413",
+            "unit": "ms",
+            "extra": "47807 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1931,
+            "range": "0.5091000000000001",
+            "unit": "ms",
+            "extra": "313 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0049,
+            "range": "0.2816",
+            "unit": "ms",
+            "extra": "204745 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0665,
+            "range": "0.3146",
+            "unit": "ms",
+            "extra": "15041 ops/sec"
           }
         ]
       }
