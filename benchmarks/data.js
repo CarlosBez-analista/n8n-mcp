@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758584200100,
+  "lastUpdate": 1758742667539,
   "repoUrl": "https://github.com/CarlosBez-analista/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -156,6 +156,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3146",
             "unit": "ms",
             "extra": "15041 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c23442249a7fc5cd18cf017b8ecd7dc5fc52e457",
+          "message": "Merge pull request #223 from czlonkowski/feat/improve-update-partial-workflow\n\nfeat: Remove unnecessary 5-operation limit from n8n_update_partial_workflow",
+          "timestamp": "2025-09-24T16:07:01+02:00",
+          "tree_id": "8ad2329c3f5586841669773de692ed3b0c00fae4",
+          "url": "https://github.com/CarlosBez-analista/n8n-mcp/commit/c23442249a7fc5cd18cf017b8ecd7dc5fc52e457"
+        },
+        "date": 1758742667148,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0193,
+            "range": "0.25479999999999997",
+            "unit": "ms",
+            "extra": "51684 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1741,
+            "range": "0.6764000000000001",
+            "unit": "ms",
+            "extra": "315 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0048,
+            "range": "0.2716",
+            "unit": "ms",
+            "extra": "206211 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0691,
+            "range": "0.4586",
+            "unit": "ms",
+            "extra": "14480 ops/sec"
           }
         ]
       }
