@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763515920180,
+  "lastUpdate": 1766492456377,
   "repoUrl": "https://github.com/CarlosBez-analista/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -293,6 +293,35 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/CarlosBez-analista/n8n-mcp/commit/5575630711733f121edf298a64c94ab971051243"
         },
         "date": 1763515919554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0136,
+            "range": "0.3096",
+            "unit": "ms",
+            "extra": "73341 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "romualdczlonkowski@MacBook-Pro-Romuald.local",
+            "name": "Romuald Członkowski"
+          },
+          "committer": {
+            "email": "romualdczlonkowski@MacBook-Pro-Romuald.local",
+            "name": "Romuald Członkowski"
+          },
+          "distinct": true,
+          "id": "a40f6a5077001fbfbdc7529663a4ebcba608f5e6",
+          "message": "test: make templates database validation critical instead of optional\n\nPreviously, the CI test only warned when templates were missing but\nalways passed. This allowed the templates database to be lost without\nfailing CI. Now the test will fail if templates are empty or below\nthe expected count of 2500.\n\nConceived by Romuald Członkowski - https://www.aiadvisors.pl/en\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+          "timestamp": "2025-12-21T15:33:25+01:00",
+          "tree_id": "8c445e411ac900ad406f2a5d351e94109f9201ff",
+          "url": "https://github.com/CarlosBez-analista/n8n-mcp/commit/a40f6a5077001fbfbdc7529663a4ebcba608f5e6"
+        },
+        "date": 1766492456016,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
